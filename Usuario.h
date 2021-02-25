@@ -8,9 +8,8 @@ using namespace std;
         string usuario;
         string contraseña;
         string DNI;
-        string login;
      public:
-         void Mostrar_usuario();
+         void virtual Mostrar_usuario()=0;
 };
 
 
