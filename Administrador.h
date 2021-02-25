@@ -1,8 +1,10 @@
 #include <iostream>
 #include <string>
+#include <Usuario.h>
+
 using namespace std;
 
-class Administrador{
+class Administrador : public Usuario{
     private:
         string Nombre;
         string Apellido;
@@ -11,4 +13,5 @@ class Administrador{
         void Registrar_administrador();
         void Registrar_empleado();
         void Generar_reporte();
+        void Verificar_administrador();
 };
