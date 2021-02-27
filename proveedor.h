@@ -1,16 +1,21 @@
-#include <iostream>
-#include <string>
-using namespace std;
+# ifndef PROVEEDOR_H
+# define PROVEEDOR_H
 
-class proveedor {
-    private:
+# incluye  < iostream >
+# incluir  < cadena >
+using namespace std ;
+
+Class proveedor {
+    privado:
         string Nombre;
         string Referencia;
-        //producto *productos;
-        //empleados *empleado;
-    public:
-        void MostrarProducto();
-        //void Mostrarempleado();
-        void MostrarProveedor();
-        void AsignarEmpleado(empleado: Empleado);
+        // producto * productos;
+        // empleados * empleado;
+    público:
+        void  MostrarProducto ();
+        // vacío Mostrarempleado ();
+        void  MostrarProveedor ();
+        void  AsignarEmpleado (empleado: Empleado);
 };
+
+#endif // PROVEEDOR_H
