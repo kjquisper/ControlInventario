@@ -1,6 +1,9 @@
+# ifndef ADMINISTRADOR_H
+# define ADMINISTRADOR_H
+
 #include <iostream>
 #include <string>
-#include <Usuario.h>
+#include "Usuario.h"
 
 using namespace std;
 
@@ -15,3 +18,5 @@ class Administrador : public Usuario{
         void Generar_reporte();
         void Verificar_administrador();
 };
+
+# endif // ADMINISTRADOR_H
