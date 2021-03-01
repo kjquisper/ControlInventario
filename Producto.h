@@ -1,3 +1,6 @@
+# ifndef PRODUCTO_H
+# define PRODUCTO_H
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -19,7 +22,4 @@ class Producto {
         void ModificarProducto();
 };
 
-Producto :: Producto(){
-    
-
-}
+#endif // PRODUCTO_H
