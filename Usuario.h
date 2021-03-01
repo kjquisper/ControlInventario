@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "Usuario.h"
 #include <string.h>
 #include<iostream>
@@ -17,6 +18,22 @@ class Usuario
         char User[30];
         char Pass[30];
 
+=======
+# ifndef USUARIO_H
+# define USUARIO_H
+
+# incluye  < iostream >
+# incluir  < cadena >
+# incluir  < string >
+
+using namespace std ;
+ class Usuario {
+     private:
+         string Login;
+        string usuario;
+        string contraseña;
+        string DNI;
+>>>>>>> 0754ec5c2003ca4b9e59dabbd94b30e36624c491
      public:
          Usuario(char[],char[],char[]);
         // void virtual Mostrar_usuario()=0;
@@ -25,6 +42,7 @@ class Usuario
          bool Acceso();
 };
 
+<<<<<<< HEAD
 
 
 Usuario::Usuario(char u[],char c[],char d[])
@@ -111,3 +129,6 @@ bool Usuario::Acceso()
 }
 
 
+=======
+#endif // USUARIO_H
+>>>>>>> 0754ec5c2003ca4b9e59dabbd94b30e36624c491
