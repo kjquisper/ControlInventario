@@ -1,17 +1,24 @@
 # ifndef EMPLEADO_H
 # define EMPLEADO_H
 
-#include <iostream>
+#include<iostream>
 #include <string>
-#include "Usuario.h"
 
-using namespace std;
-
-class Empleado : public Usuario{
-    private:
-        Proveedor * proveedor;
-    public:
-      void Operacion(string ,bool ,int);
+class Empleado 
+{
+	private:
+		char DNI[8];
+		char usuario[10];
+        char contrasena[10];
+        int contadoru;
+        int contadorc;
+        char User[30];
+        char Pass[30];
+	public:
+		Empleado(char[],char[],char[]);
+		bool Validar_Datos(char*, int , char* , int);
+        void Obtener_Longitud();
+        bool Acceso();
 };
 
-#endif // EMPLEADO_H
+#endif
