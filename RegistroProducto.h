@@ -1,7 +1,7 @@
 # ifndef REGISTRARPRODUCTO_H
 # define REGISTRARPRODUCTO_H
 
-#include  < cadena >
+//#include  < cadena >
 #include <iostream>
 #include <string>
 using namespace std;
