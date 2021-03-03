@@ -2740,7 +2740,7 @@
 											"top": 620,
 											"width": 143.40625,
 											"height": 13,
-											"text": "-Login: string",
+											"text": "-Usuario: string",
 											"horizontalAlignment": 0
 										},
 										{
@@ -5543,7 +5543,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF3v80wOTVlMTQ="
 							},
-							"name": "Login",
+							"name": "Usuario",
 							"visibility": "private",
 							"type": "string"
 						},
