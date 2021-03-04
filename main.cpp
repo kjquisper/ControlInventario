@@ -34,7 +34,7 @@ int main(){
 	    	if(Colb1.Acceso()==true)
 	    	{
 	        cout<<"\nLogeado correctamente!";
-	        menuempleado();
+	        menuempleado(); 
 	        
 	        
 	    	}else{
