@@ -1,25 +1,29 @@
-# ifndef PRODUCTO_H
-# define PRODUCTO_H
-
+#ifndef PRODUCTO_H
+#define PRODUCTO_H	
 #include <iostream>
-#include <string>
+#include <string.h>
+#include "Proveedor.h"
 using namespace std;
 
 class Producto {
     private:
-        char codigo;
-        string Nombre;
+        int codigo;
+        char Nombre[10];
         int stock;
-        string categoria;
+        char categoria[10];
         float precio;
-        //Proveedor *proveedor;
+        Proveedor *proveedor;
+        int entrada;
+        int salida;
     public:
-        Producto();
+    	void Registrar_Producto();
         void Registrar_Entrada(int);
         void Registrar_Salida(int);
         void Actualizar_Stock();
         void MostrarProducto();
         void ModificarProducto();
+        void Asignar_Proveedor(Proveedor*);
 };
 
-#endif // PRODUCTO_H
+
+#endif
