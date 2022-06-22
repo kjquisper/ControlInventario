@@ -1,2 +1,3 @@
-# ControlInventario
+# ControlInventario 
+Estado Incompleto
  
